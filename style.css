@@ -1,0 +1,81 @@
+body{
+  font-family:cursive;
+  margin: 0;
+}
+
+
+.main {
+  flex-direction: column-reverse;
+}
+
+.sidebar {
+  background:yellow;
+  flex-direction: column;
+  display: flex;
+}
+img {
+  width:55%;
+  border-radius:100%;
+}
+
+.experience {
+  flex-direction: column;
+}
+
+.col-3{
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.head{
+  text-align: center;
+}
+
+.sidebar-header {
+  background-color: black;
+}
+
+h2{
+  color:gold;
+  font-family:fantasy;
+}
+.grey{
+   color:grey;
+}
+
+.col-0{
+  padding: 5px;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.flex-grow{
+  flex-grow: 1;
+}
+
+.px-3{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-3 {
+    flex-basis:30%;
+  }
+  .main, .experience {
+    flex-direction: row;
+  }
+}
